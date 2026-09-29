@@ -1,0 +1,36 @@
+{
+  "model_architecture": "LSTM / 1D-CNN Deep Neural Network",
+  "dataset": "Smart Hostel Multi-Sensor Environmental Telemetry",
+  "test_samples": 10,
+  "features": [
+    "temperature",
+    "humidity",
+    "light",
+    "motion",
+    "air_quality"
+  ],
+  "sequence_window": 5,
+  "metrics": {
+    "accuracy": 0.8,
+    "precision": 1.0,
+    "recall": 0.6667,
+    "f1_score": 0.8
+  },
+  "confusion_matrix": {
+    "true_positive": 4,
+    "false_positive": 0,
+    "true_negative": 4,
+    "false_negative": 2,
+    "matrix_2x2": [
+      [
+        4,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "dataset_limitations": "Dataset includes temperature, humidity, ambient light, PIR motion, and MQ-135 air quality. Data was collected under room temperatures 24\u00b0C - 42\u00b0C and humidity 40% - 95%. Edge drift and extreme sensor noise may require periodic baseline recalibration."
+}

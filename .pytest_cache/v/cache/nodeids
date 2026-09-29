@@ -1,0 +1,11 @@
+[
+  "backend/tests/test_backend.py::test_admin_login",
+  "backend/tests/test_backend.py::test_get_rooms",
+  "backend/tests/test_backend.py::test_get_sensor_history",
+  "backend/tests/test_backend.py::test_health_check",
+  "backend/tests/test_backend.py::test_invalid_login",
+  "backend/tests/test_backend.py::test_predict_anomaly_endpoint",
+  "backend/tests/test_backend.py::test_sensor_ingestion_anomaly_and_alert",
+  "backend/tests/test_backend.py::test_sensor_ingestion_normal",
+  "backend/tests/test_backend.py::test_student_login"
+]

@@ -1,0 +1,24 @@
+{
+  "features": [
+    "temperature",
+    "humidity",
+    "light",
+    "motion",
+    "air_quality"
+  ],
+  "sequence_length": 5,
+  "feature_min": {
+    "temperature": 26.5,
+    "humidity": 49.2,
+    "light": 50.0,
+    "motion": 0.0,
+    "air_quality": 38.0
+  },
+  "feature_max": {
+    "temperature": 42.0,
+    "humidity": 92.0,
+    "light": 910.0,
+    "motion": 1.0,
+    "air_quality": 290.0
+  }
+}

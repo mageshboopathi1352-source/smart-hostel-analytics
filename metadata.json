@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix AIoT Smart Hostel Environment Analytics",
+  "description": "AIoT Smart Hostel Environment Analytics \u0026 Anomaly Prediction Using DNN and GenAI with real-time sensor monitoring, ESP32 integration, and intelligent alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
